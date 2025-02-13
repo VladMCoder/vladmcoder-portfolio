@@ -1,0 +1,802 @@
+@media (min-width: 744px) {
+    /* mobile header */
+    .mobile-header {
+        max-width: 100%;
+        margin: 16px 24px 0px 16px;
+    }
+    
+    .mobile-header-logo-website {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 1.25;
+    }
+
+    /* welcome section */
+
+    .welcome {
+        margin-top: 70px;
+    }
+
+    .welcome {
+        max-width: 614px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 46px;
+        margin-top: 70px;
+    }
+
+    .welcome-personal-picture {
+        width: 284px;
+        margin-top: 0px;
+    }
+
+    /* section skills */
+
+    .about-me {
+        max-width: 712px;
+        margin-top: 70px;
+    }
+
+    .skills {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* ui ux skills */
+
+    .ui-ux-skills-container {
+        width: 348px;
+        margin-top: 30px;
+    }
+    
+    .ui-ux-skills-list-item {
+        width: 348px;
+    }
+
+    /* tech skills */
+
+    .tech-skills-container {
+        width: 348px;
+    }
+
+    .tech-skills-list-item {
+        width: 348px;
+    }
+
+    /* soft skills */
+
+    .soft-skills {
+        margin-top: 60px;
+    }
+
+    .soft-skills-list {
+        width: 712px;
+        position: relative;
+    }
+
+    .soft-skills-list-item-container {
+        width: 348px;
+    }
+
+    .soft-skills-list-item-container {
+        position: relative;
+    }
+
+    .soft-skills-list-item:nth-child(4) {
+        position: absolute;
+        top: -21px;
+        left: 364px;
+    }
+
+    .soft-skills-list-item:nth-child(3) {
+        position: absolute;
+        top: 64px;
+        left: 364px;
+    }
+
+    .soft-skills-list-item:nth-child(6) {
+        position: absolute;
+        top: 149px;
+        left: 364px;
+    }
+
+    .soft-skills-container {
+        max-width: 712px;
+    }
+
+    /* projects */
+
+    .projects-container {
+        max-width: 712px;
+        margin-top: 70px;
+    }
+
+    .projects-list {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    .projects-list-item:nth-child(1) {
+        margin-top: 20px;
+    }
+    
+    .projects-list-item:nth-child(2) {
+        margin-top: 20px;
+    }
+    
+    .projects-list-item-picture {
+        width: 348px;
+    }
+
+    .projects-list-item-link {
+        padding: 13px 64px;
+    }
+
+    /* check out button hover */
+    
+    .projects-list-item-picture-check-out {
+        width: 348px;
+        height: 348px;
+    }
+
+    .projects-list-item-picture-container-check-out {
+        width: 348px;
+        height: 348px;
+    }
+    
+    .projects-list-item-picture-container-check-out:hover {
+        width: 348px;
+        height: 348px;
+    }
+
+    .projects-list-item-picture-description-text-check {
+        position: absolute;
+        top: 36px;
+        left: 54px;
+    }
+
+    .projects-list-item-picture-description-button-check {
+        position: absolute;
+        top: 260px;
+        left: 27px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.25;
+        padding: 11px 88px;
+    }
+
+    /* tech project */
+
+    .tech-projects-container {
+        max-width: 712px;
+    }
+
+    .tech-projects-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .tech-projects-list-item {
+        max-width: 348px;
+    }
+    
+    .tech-projects-list-item-picture {
+        width: 348px;
+    }
+
+    .tech-projects-list-item:nth-child(1) {
+        margin-top: 0px;
+    }
+    
+    .tech-projects-list-item:nth-child(2) {
+        margin-top: 0px;
+    }
+
+    /* tech projects: react.js */
+
+    .tech-projects-react-js-container {
+        max-width: 712px;
+    }
+
+    .tech-projects-react-js-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .tech-projects-react-js-list-item {
+        max-width: 348px;
+    }
+
+    .tech-projects-react-js-list-item-picture {
+        width: 348px;
+    }
+
+    .tech-projects-react-js-list-item:nth-child(1) {
+        margin-top: 0px;
+    }
+
+    .tech-projects-react-js-list-item:nth-child(2) {
+        margin-top: 0px;
+    }
+
+    /* tech project: full stack and rest api */
+
+    .tech-project-full-stack-and-rest-api-container {
+        max-width: 712px;
+        margin-top: 70px;
+    }
+
+    .tech-project-full-stack-and-rest-api-list {
+        display: flex;
+        gap: 16px;
+    }
+
+    .tech-project-full-stack-and-rest-api-container {
+        margin-top: 20px;
+    }
+
+    .tech-project-full-stack-and-rest-api-list-item {
+        width: 448px;
+    }
+
+    /* hire me */
+    
+    .hire-me {
+        margin-top: 70px;
+    }
+
+    .hire-me-container {
+        max-width: 350px;
+    }
+
+    .footer {
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    /* mobile header */
+    .mobile-header {
+        display: none;
+    }
+
+    .mobile-header-menu-burger-button {
+        display: none;
+    }
+    
+    .mobile-header-logo-website {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 1.25;
+    }
+
+    /* header container + mobile menu */
+
+    .header-container {
+        max-width: 1392px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 30px;
+        transform: translateY(0%);
+        overflow-x: hidden;
+    }
+
+    .header-menu-list {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .header-menu-list-item {
+        margin-top: 0px;
+    }
+    
+    .header-menu-list-item-link {
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .header-menu-list-item-link::after {
+        content: "";
+        display: block;
+        border-radius: 5px;
+        width: 100%;
+        height: 75px;
+        transition: 350ms cubic-bezier(.61, 0, .51, 1);
+        position: absolute;
+        top: -15px;
+        left: 0;
+    }
+
+    .header-menu-list-item-link:hover::after {
+        cursor: pointer;
+        width: 100%;
+        height: 40px;
+        transition: 350ms cubic-bezier(.61, 0, .51, 1);
+        position: absolute;
+        top: -1px;
+    }
+
+    .header-container {
+        background: transparent;
+        position: relative;
+    }
+    
+    .header-mobile-menu-container {
+        margin: 0;
+    }
+
+    /* welcome section */
+    .welcome {
+        max-width: 1140px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 266px;
+        margin-top: 230px;
+        text-align: left;
+    }
+
+    .welcome-describe-position {
+        max-width: 426px;
+    }
+
+    .welcome-personal-picture {
+        width: 448px;
+    }
+
+    .welcome-describe-position-name {
+        font-size: 31px;
+        font-weight: 400;
+        line-height: 1.45;
+    }
+
+    .welcome-describe-position-designer {
+        font-size: 31px;
+        font-weight: 400;
+        line-height: 1.45;
+    }
+
+    .welcome-describe-position-developer {
+        font-size: 31px;
+        font-weight: 400;
+        line-height: 1.45;
+    }
+
+    /* section skills */
+
+    .about-me {
+        max-width: 967px;
+        margin-top: 100px;
+    }
+
+    .about-me-title {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .skills {
+        gap: 58px;
+    }
+
+    /* ui ux skills */
+
+    .ui-ux-skills-title {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+    
+    .ui-ux-skills-name-skils {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+    
+    .ui-ux-skills-container {
+        width: 624px;
+    }
+
+    .ui-ux-skills-list-item {
+        width: 624px;
+    }
+
+    .ui-ux-skills-name-skils-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* tech skills */
+
+    .tech-skills-title {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+    
+    .tech-skills-name-skils {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .tech-skills-container {
+        width: 652px;
+    }
+
+    .tech-skills-list-item {
+        width: 652px;
+    }
+
+    .tech-skills-name-skils-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Soft Skills */
+
+    .soft-skills {
+        margin-top: 100px;
+    }
+
+    .soft-skills-list {
+        width: 854px;
+    }
+
+    .soft-skills-container {
+        max-width: 854px;
+    }
+
+    .soft-skills-title {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .soft-skills-list-item-title {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .soft-skills-list-item-process-percent {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+    
+    .soft-skills-list-item-container {
+        width: 394px;
+    }
+
+    .soft-skills-list-item-container {
+        position: relative;
+    }
+
+    .soft-skills-list-item:nth-child(4) {
+        position: absolute;
+        top: -20px;
+        left: 459px;
+    }
+
+    .soft-skills-list-item:nth-child(3) {
+        position: absolute;
+        top: 80px;
+        left: 459px;
+    }
+
+    .soft-skills-list-item:nth-child(6) {
+        position: absolute;
+        top: 180px;
+        left: 459px;
+    }
+
+    /* projects */
+
+    .projects {
+        margin-top: 100px;
+    }
+
+    .projects-list {
+        gap: 24px;
+    }
+
+    .projects-container {
+        max-width: 1392px;
+    }
+
+    .projects-list-item-picture {
+        width: 448px;
+    }
+
+    .projects-list-item-container {
+        gap: 24px;
+    }
+
+    .projects-list-item-link {
+        padding: 13px 115px;
+    }
+    
+    .projects-title {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .projects-subtitle {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .projects-list-item-description {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.25;
+        max-width: 368px;
+    }
+
+    /* check out button */
+
+    .projects-list-item-picture-description-text-check {
+        width: 287px;
+        position: absolute;
+        top: 36px;
+        left: 81px;
+    }
+
+    .projects-list-item-picture-check-out {
+        width: 430px;
+        height: 430px;
+    }
+
+    .projects-list-item-picture-container-check-out {
+        width: 430px;
+        height: 430px;
+    }
+
+    .projects-list-item-picture-container-check-out:hover {
+        width: 430px;
+        height: 430px;
+    }
+
+    .projects-list-item-picture-description-button-check {
+        padding: 11px 115px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.25;
+        position: absolute;
+        top: 345px;
+        left: 49px;
+    }
+
+    /* tech project */
+
+    .tech-projects {
+        margin-top: 100px;
+    }
+
+    .tech-projects-title {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .tech-projects-subtitle {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.25;
+    }
+
+    .tech-projects-container {
+        max-width: 1392px;
+    }
+
+    .tech-projects-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .tech-projects-list-item {
+        max-width: 448px;
+    }
+
+    .tech-projects-list-item-picture {
+        width: 448px;
+    }
+    
+    .tech-projects-list-item:last-child {
+        margin-top: 0px;
+    }
+
+    .tech-projects-list-item-title {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .tech-projects-list-item-description {
+        font-size: 24px;
+        font-weight: 275;
+        line-height: 1.25;
+    }
+
+    /* tech projects: react.js */
+
+    .tech-projects-react-js {
+        margin-top: 100px;
+    }
+
+    .tech-projects-react-js-title {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .tech-projects-react-js-subtitle {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.25;
+    }
+
+    .tech-projects-react-js-container {
+        max-width: 1392px;
+    }
+
+    .tech-projects-react-js-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .tech-projects-react-js-list-item {
+        max-width: 448px;
+    }
+
+    .tech-projects-react-js-list-item-picture {
+        width: 448px;
+    }
+
+    .tech-projects-react-js-list-item-title {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .tech-projects-react-js-list-item-description {
+        font-size: 24px;
+        font-weight: 275;
+        line-height: 1.25;
+    }
+
+    /* tech project: full stack and rest api */
+
+    .tech-project-full-stack-and-rest-api {
+        margin-top: 100px;
+    }
+
+    .tech-project-full-stack-and-rest-api-container {
+        max-width: 1392px;
+    }
+
+    .tech-project-full-stack-and-rest-api-list {
+        display: flex;
+        gap: 16px;
+    }
+
+    .tech-project-full-stack-and-rest-api-container {
+        margin-top: 20px;
+    }
+
+    /* full stack */
+
+    .tech-project-full-stack-and-rest-api-title {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.25;
+    }
+
+    .tech-project-full-stack-and-rest-api-status {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.25;
+    }
+
+    .tech-project-full-stack-and-rest-api-list-item-title {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.25;
+    }
+
+    .tech-project-full-stack-and-rest-api-list-item-description {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.25;
+    }
+
+    .tech-project-full-stack-and-rest-api-list-item-frontend-title {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .tech-project-full-stack-and-rest-api-list-item-frontend-description {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.25;
+    }
+
+    .tech-project-full-stack-and-rest-api-list-item-backend-title {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .tech-project-full-stack-and-rest-api-list-item-backend-description {
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 1.25;
+    }
+
+    /* hire me */
+    
+    .hire-me {
+        margin-top: 100px;
+    }
+
+    .hire-me-container {
+        max-width: 448px;
+    }
+
+    .hire-me-title {
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 1.25;
+    }
+
+    .hire-me-description {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 1.25;
+        margin-top: 50px;
+    }
+
+    /* footer */
+    
+    .footer {
+        margin-top: 100px;
+    }
+
+    .footer-container {
+        max-width: 1392px;
+    }
+
+    .footer-container {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer-copy-forbidden {
+        margin-top: 0px;
+    }
+    
+    .footer-social-media {
+        margin-top: 0px;
+    }
+}
