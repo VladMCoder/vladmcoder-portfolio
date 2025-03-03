@@ -758,6 +758,45 @@
     gap: 20px;
 }
 
+/* React.js redux */
+
+.tech-projects-react-js-redux {
+    margin-top: 70px;
+}
+
+.tech-project-react-js-redux-title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.react-js-rudux-card {
+    margin-top: 30px;
+}
+
+.tech-project-react-js-redux-container {
+    max-width: 396px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.tech-projects-react-js-redux-picture {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.todo-app-margin {
+    margin-top: 30px;
+}
+
+.tech-project-react-js-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 /* tech projects: full stack and rest api */
 
 .tech-project-full-stack-and-rest-api {

@@ -226,6 +226,18 @@
         margin-top: 0px;
     }
 
+    /* tech project: react.js redux */
+    
+    .tech-project-react-js-redux-container {
+        max-width: 712px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tech-projects-react-js-redux-picture {
+        width: 348px;
+    }
+
     /* tech project: full stack and rest api */
 
     .tech-project-full-stack-and-rest-api-container {
@@ -680,6 +692,24 @@
     .tech-projects-react-js-list-item-description {
         font-size: 24px;
         font-weight: 275;
+        line-height: 1.25;
+    }
+
+    /* tech project: react.js redux */
+
+    .tech-project-react-js-redux-container {
+        max-width: 1392px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .tech-projects-react-js-redux-picture {
+        width: 448px;
+    }
+    
+    .tech-project-react-js-redux-title {
+        font-size: 32px;
+        font-weight: 400;
         line-height: 1.25;
     }
 
